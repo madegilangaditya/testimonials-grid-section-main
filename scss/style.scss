@@ -32,6 +32,14 @@ h1,h2{
         img{
             border-color: $neutral1;
         }
+
+        &-name{
+            color: $neutral1;
+        }
+
+        &-graduate{
+            color: rgba($neutral1, 0.5);
+        }
     }
 }
 
@@ -74,8 +82,18 @@ section{
 }
 
 .profile{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+
+    .profile-image{
+        max-width: 32px;
+    }
+
     img{
         border-radius: 50%;
         border: 2px solid #fff;
+        width: 100%;
     }
 }
