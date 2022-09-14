@@ -1,0 +1,28 @@
+@media all and (min-width:768px){
+    main{
+        height: 100vh;
+        align-items: center;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 34px;
+    }
+
+    .bg-purple{
+        grid-column: 1 / 3;
+    }
+
+    .col3{
+        grid-column: 2/1;
+    }
+
+    .bg-dark-gray{
+        grid-column: 2/4;
+    }
+
+    .col5{
+        grid-area: 1/4/3;
+    }
+}
