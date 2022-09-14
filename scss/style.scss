@@ -53,6 +53,10 @@ h1{
             color: rgba($neutral1, 0.5);
         }
     }
+
+    .testimonial-description{
+        color: rgba($neutral1, 0.7);
+    }
 }
 
 .bg-gray{
@@ -71,6 +75,10 @@ h1{
             color: rgba($neutral2, 0.5);
         }
     }
+
+    .testimonial-description{
+        color: rgba($neutral2, 0.7);
+    }
 }
 
 .bg-dark-gray{
@@ -81,9 +89,18 @@ h1{
             border-color: $primary1;
         }
 
+        &-name{
+            color: $neutral1;
+        }
+
         &-graduate{
             color: rgba($neutral1, 0.5);
         }
+        
+    }
+
+    .testimonial-description{
+        color: rgba($neutral1, 0.7);
     }
 }
 
@@ -95,8 +112,12 @@ h1{
             border-color: $primary2;
         }
 
+        &-name{
+            color: $primary3;
+        }
+
         &-graduate{
-            color: rgba($primary2, 0.5);
+            color: rgba($primary3, 0.5);
         }
     }
 
@@ -105,7 +126,7 @@ h1{
     }
 
     .testimonial-description{
-        color: rgba($primary3, 0.5);
+        color: rgba($primary3, 0.7);
     }
 }
 
