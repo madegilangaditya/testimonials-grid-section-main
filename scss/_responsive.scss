@@ -1,13 +1,33 @@
 @media all and (min-width:768px){
+
+    body{
+        font-size: 0.813rem;
+    }
+
     main{
         height: 100vh;
         align-items: center;
     }
 
+    section{
+        padding: 165px 10px;
+    }
+
     .container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 34px;
+        gap: 25px;
+        max-width: 1110px;
+        margin: auto;
+    }
+
+    .profile-name{
+        font-size: 0.938rem;
+    }
+
+    .bg-pattern{
+        right: 55px;
+        width: 130px;
     }
 
     .bg-purple{
@@ -24,5 +44,16 @@
 
     .col5{
         grid-area: 1/4/3;
+    }
+
+    .testimonial-wrapper{
+
+        &:not(:last-child){
+            margin-bottom: 0;
+        }
+
+        .testimonial-title{
+            font-size: 1.25rem;
+        }
     }
 }

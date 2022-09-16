@@ -19,6 +19,7 @@ body{
     font-size: 0.938rem;
     color: $neutral1;
     background-color: $neutral2;
+    line-height: 1.5;
 }
 
 h1,h2{
@@ -35,6 +36,10 @@ h1{
     right: 25px;
     top: 0;
     z-index: 0;
+}
+
+.profile-graduate{
+    font-size: 0.813rem;
 }
 
 .bg-purple{
